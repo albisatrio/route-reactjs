@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
       { path: "profil", element: <Profil /> },
       { path: "galeri", element: <Galeri /> },
       { path: "hubungi-kami", element: <HubungiKami /> },
-      { path: "registrasi", element: <Registrasi />}
+      { path: "registrasi", element: <Registrasi />},
     ],
   },
 ]);
