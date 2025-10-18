@@ -6,7 +6,7 @@ import App from "../App";
 import Profil from "../pages/Profil"; 
 import Galeri from "../pages/Galeri";
 import HubungiKami from "../pages/HubungiKami";
-
+import Registrasi from "../pages/Registrasi";
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +18,7 @@ export const router = createBrowserRouter([
       { path: "profil", element: <Profil /> },
       { path: "galeri", element: <Galeri /> },
       { path: "hubungi-kami", element: <HubungiKami /> },
+      { path: "registrasi", element: <Registrasi />}
     ],
   },
 ]);
