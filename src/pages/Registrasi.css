@@ -1,0 +1,77 @@
+/* Buat seluruh halaman form di tengah */
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffb400; /* warna kuning seperti contoh */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card utama */
+.register-card {
+  background-color: #222;
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+/* Judul */
+.register-card h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.register-card p {
+  font-size: 13px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Input form */
+.register-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: white;
+}
+
+/* Tombol daftar */
+.register-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.register-card button:hover {
+  background-color: #007777;
+}
+
+/* Link login */
+.login-link {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.login-link a {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
