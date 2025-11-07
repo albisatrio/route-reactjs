@@ -1,3 +1,4 @@
+import { path } from "framer-motion/client";
 import { Outlet, NavLink } from "react-router-dom";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     { path: "/galeri", label: "Galeri" },
     { path: "/hubungi-kami", label: "Hubungi Kami" },
     { path: "/registrasi", label: "Registrasi" },
+    { path: "/product-list", label: "Product List" },
   ];
 
   return (
