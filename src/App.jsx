@@ -42,7 +42,6 @@ export default function App() {
 
       {/* Footer */}
       <footer className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white text-center py-3">
-        <p>© 2025 MyWebsite — All rights reserved.</p>
       </footer>
     </div>
   );
